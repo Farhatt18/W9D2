@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;  
+  width: 300px;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  border: 5px solid black;
+  padding: 0;
+}
+
+
+li {
+  list-style: none;
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;
+  background: grey;
+}
+
+li:hover {
+  background: rgb(255, 252, 74);
+}
